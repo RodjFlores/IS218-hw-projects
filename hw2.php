@@ -67,7 +67,29 @@ $sums = array(1,2,3,4,5);
 
 echo array_sum($sums);
 
-echo "<br><br>-------array_key_exists()----------<br><br>";
+echo "<br><br>-------array_values()----------<br><br>";
+
+print_r(array_values($a));
+
+echo "<br><br>-------current() && next()----------<br><br>";
+
+echo current($a)."<br>";
+echo next($a)."<br>";
+echo current($a)."<br>";
+echo next($a)."<br>";
+echo current($a)."<br>";
+echo next($a)."<br>";
+
+echo "<br><br>-------shuffle()----------<br><br>";
+
+shuffle($a);
+print_r($a);
+
+echo "<br><br>-------array_reverse()----------<br><br>";
+
+$reverse = array_reverse($a);
+print_r($reverse);
+
 
 ?>
 

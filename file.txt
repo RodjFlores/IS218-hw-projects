@@ -1,0 +1,6 @@
+THIS IS THE FILE READER CLASS
+
+READ LINE BY LINE
+first line
+second line
+last line

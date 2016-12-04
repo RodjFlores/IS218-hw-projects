@@ -1,0 +1,5 @@
+<?php
+require_once('core/p2loader.php');
+
+spl_autoload_register('Autoloader::loader');
+?>

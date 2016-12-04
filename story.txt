@@ -1,0 +1,1 @@
+This is a story of how I used curl from an autoloader function. The next curl request will be invalid and prove that I have used ERROR HANDLING.
